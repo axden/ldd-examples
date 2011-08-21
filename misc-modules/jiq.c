@@ -53,8 +53,6 @@ module_param(delay, long, 0);
 static DECLARE_WAIT_QUEUE_HEAD (jiq_wait);
 
 
-static void jiq_print_wq(struct work_struct *work);
-
 
 /*
  * Keep track of info we need between task queue runs.
